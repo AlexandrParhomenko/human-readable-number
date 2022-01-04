@@ -8,6 +8,7 @@ module.exports = function toReadable(num) {
             {
                 return one[num];
             }
+
             case (2): {
                 if (num % 10 === 0) {
                     return three[Math.floor(num/10)];
